@@ -11,11 +11,11 @@ public class ProducerTest {
     public static void main(String[] args) {
         Properties properties = new Properties();
         //您在控制台创建的 Producer ID
-        properties.put(PropertyKeyConst.ProducerId, "PID-szbus-demand");
+        properties.put(PropertyKeyConst.ProducerId, "xxx");
         // AccessKey 阿里云身份验证，在阿里云服务器管理控制台创建
-        properties.put(PropertyKeyConst.AccessKey,"LTAIKqbB4udmJox5");
+        properties.put(PropertyKeyConst.AccessKey,"xxx");
         // SecretKey 阿里云身份验证，在阿里云服务器管理控制台创建
-        properties.put(PropertyKeyConst.SecretKey, "5eWvd583iBW8Ki7zIxrFCcGKK2JKhh");
+        properties.put(PropertyKeyConst.SecretKey, "xxx");
         //设置发送超时时间，单位毫秒
         properties.setProperty(PropertyKeyConst.SendMsgTimeoutMillis, "3000");
         // 设置 TCP 接入域名（此处以公共云生产环境为例）
