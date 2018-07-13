@@ -18,11 +18,11 @@ public class ConsumerTest {
     	
         Properties properties = new Properties();
         // 您在控制台创建的 Consumer ID
-        properties.put(PropertyKeyConst.ConsumerId, "CID-szbus-demand");
+        properties.put(PropertyKeyConst.ConsumerId, "xxx");
         // AccessKey 阿里云身份验证，在阿里云服务器管理控制台创建
-        properties.put(PropertyKeyConst.AccessKey, "LTAIKqbB4udmJox5");
+        properties.put(PropertyKeyConst.AccessKey, "xxx");
         // SecretKey 阿里云身份验证，在阿里云服务器管理控制台创建
-        properties.put(PropertyKeyConst.SecretKey, "5eWvd583iBW8Ki7zIxrFCcGKK2JKhh");
+        properties.put(PropertyKeyConst.SecretKey, "xxx");
         // 设置 TCP 接入域名（此处以公共云生产环境为例）
         properties.put(PropertyKeyConst.ONSAddr,
         		"http://onsaddr-internet.aliyun.com/rocketmq/nsaddr4client-internet");
